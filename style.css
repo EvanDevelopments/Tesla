@@ -1,0 +1,276 @@
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.center a:hover{
+	background-color: rgba(128,128,128, 0.1);
+	border-radius: 5px;
+}
+.right a:hover{
+	background-color: rgba(128,128,128, 0.1);
+	border-radius: 5px;
+}
+a.logo{
+    height: 12px;
+    width: 150px;
+    color: inherit;
+}
+header a{
+    color: inherit;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header nav.center{
+    text-align: center;
+	padding-left:100px;
+}
+section{
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.model3{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.modely{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.models{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.modelx{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.solarpanels{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.roof{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.accessories{
+	text-align:center;
+	padding-top:50px;
+	font-size:40px;
+}
+.model3td{
+    background:white;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:black;
+	border: 2px solid white;
+	border-radius: 5px;
+	position: absolute;
+	top:1080px;
+	right:870px;
+	text-align: center;
+	cursor: pointer;
+}
+.model3ei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:1080px;
+	right:1200px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelytd{
+    background:white;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:black;
+	border: 2px solid white;
+	border-radius: 5px;
+	position: absolute;
+	top:2280px;
+	right:870px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelyei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:2280px;
+	right:1200px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelstd{
+    background:white;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:black;
+	border: 2px solid white;
+	border-radius: 5px;
+	position: absolute;
+	top:3480px;
+	right:870px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelsei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:3480px;
+	right:1200px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelxtd{
+    background:white;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:black;
+	border: 2px solid white;
+	border-radius: 5px;
+	position: absolute;
+	top:4680px;
+	right:870px;
+	text-align: center;
+	cursor: pointer;
+}
+.modelxei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:4680px;
+	right:1200px;
+	text-align: center;
+	cursor: pointer;
+}
+.Solarpanelsei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:5880px;
+	right:1040px;
+	text-align: center;
+	cursor: pointer;
+}
+.roofei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:7080px;
+	right:1040px;
+	text-align: center;
+	cursor: pointer;
+}
+.accessoriesei{
+	background: #171a20;
+    opacity: 0.8;
+	width:300px;
+	height:43px;
+	color:white;
+	border: 2px solid:#171a20;
+	border-radius: 5px;
+	position: absolute;
+	top:8280px;
+	right:1040px;
+	text-align: center;
+	cursor: pointer;
+}
+aside{
+	/* i also watched a video on how to make transitions in order to make the menu slide into focus more nicely instead of just appearing*/
+	position:fixed;
+	transition:right .2s ease;
+	right:-320px;
+	width:320px;
+	background-color:#fff;
+	padding:80px 40px;
+	z-index:4;
+	height:100vh;
+}
+aside.active{
+	right:0;
+}
+aside a{
+	display:block;
+	color:inherit;
+	text-decoration:none;
+	padding:13px 0;
+	font-size:15px;
+	font-weight:bold;
+}
+aside a:hover{
+	background-color: rgba(128,128,128, 0.1);
+	border-radius: 5px;
+	padding-left:5px;
+}
+aside button.close{
+	font-size:32px;
+	border:0;
+	background-color:transparent;
+	position:absolute;
+	top:10px;
+	right:10px;
+	padding:10px;
+	cursor: pointer;
+}
+/*watched a video on how to use z index and filters in order to create a blured and darker backdrop for when the menu bar is called and the menu side bar becomes active*/
+.backdrop{
+	display:none;
+	position:fixed;
+	inset:0;
+	background-color: rgba(0,0,0,.35);
+	backdrop-filter: blur(5px);
+	z-index:2;
+}
+.backdrop.active{
+	display:block;
+}
+
+
